@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="color.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@300&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.8.3/dist/d3.min.js"></script>  
+  <script src="myscript.js"></script>
+  <title>Document</title>
+</head>
+
+<body class="bg-black">
+
+<!---Navigation menu-->
+<nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+
+<!--Dark/Light Toggle Switch-->
+   <div class="toggle-container">
+     <label class="toggle-switch">
+     <input type="checkbox" id="mode-toggle">
+     <span class="slider"></span>
+     </label>
+     <div class="toggle-text-position">
+      <h4 class="mode-status"> Currently in DARK Mode</h4>
+    </div>
+    
+  </div>
+</nav>
+  
+
+<!--Hero image Slideshow-->
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+     <img src="https://images.unsplash.com/photo-1627163439134-7a8c47e08208?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=100" class="img-hero" alt="Image 1">
+    </div>
+
+  <div class="mySlides fade">
+    <img src="https://images.unsplash.com/photo-1634978383041-b5b0ddadcc0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80" class="img-hero" alt="Image 2">
+   </div>
+
+  <div class="mySlides fade">
+    <img src="https://images.unsplash.com/photo-1635352721344-ee65dbac28f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=100" class="img-hero" alt="Image 3">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://images.unsplash.com/photo-1597600159211-d6c104f408d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1478&q=80" class="img-hero" alt="Image 4">
+  </div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div> 
+<br><br><br>
+  
+<!-- Image-Paragraph Section-->
+<h1 class="text-center"> Hello!!! My name is Ian Ambay</h1>
+<br><br><br>
+
+<div>
+<table>
+    <tr>
+      <td class="td-60"> 
+        <h2 class="text-center text-lightblue"> About Me </h2>
+        <p class="paragraph-padding text-indent"> 
+          I am currently a Web Design and Development graduate as well as currently learning to become a Software Developer. 
+          I am currently looking to work as a Web/Software Developer or accepting projects using HTML, CSS and JavaScript. </p> 
+         <p class="paragraph-padding text-indent">I am a fun-loving and adventurous person who is always up for trying new things! I have a great sense of humor and love to make people laugh. In my free time, you can find me exploring the great outdoors, trying new foods, and explore new places. Overall, I am a spontaneous, outgoing and curious person who is always up for a good time.
+        </p><br>
+        
+        <div class="paragraph-padding text-center">
+          <h3 class="text-lightblue">Check out my Social Media! </h3>
+          <h5>Like, React or Follow! 	&#128512; &#128077; </h5><br>
+          <a href="https://www.linkedin.com/in/ianambay/"><img src="https://cdn-icons-png.flaticon.com/128/2504/2504923.png" alt="linkedin logo" class="social-media__logo--50"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/2504/2504903.png" alt="facebook logo" class="social-media__logo--50"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="instagram logo" class="social-media__logo--50"></a>
+        </div>
+     </td>
+
+     <td class="td-40">
+       <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fHBlcnNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="shadow" alt="man in black background" style="width:70%; padding:20px;">
+     </td>
+    </tr>
+</table>
+<br> <br> <br><br>
+</div>
+  
+  
+<!--3-Grid Images with text-->
+<main class="text-center">
+<h2 class="text-lightblue"> My Services </h2>
+<div class="grid-container-3">
+
+  <div>
+    <h3> Web Design </h3>
+        <a href="#">
+        <img class="grid-image" src="https://images.pexels.com/photos/6476595/pexels-photo-6476595.jpeg" alt="picture">
+        </a>
+  </div>
+  
+  <div>
+    <h3> Software Development </h3>
+        <a href="#">
+        <img class="grid-image" src="https://images.pexels.com/photos/3888149/pexels-photo-3888149.jpeg" alt="picture">
+        </a>
+  </div>
+
+  <div>
+    <h3> UI/UX Design </h3>
+        <a href="#">
+       <img class="grid-image" src="https://images.pexels.com/photos/6672290/pexels-photo-6672290.jpeg" alt="picture">
+        </a>
+  </div>
+  <div>
+    <h3> Logo Design </h3>
+        <a href="#">
+        <img class="grid-image" src="https://images.pexels.com/photos/1337382/pexels-photo-1337382.jpeg" alt="picture">
+        </a>
+  </div>
+  
+   <div>
+    <h3> Branding </h3>
+        <a href="#">
+        <img class="grid-image" src="https://images.pexels.com/photos/2290786/pexels-photo-2290786.jpeg" alt="picture">
+        </a>
+  </div>
+  
+   <div>
+    <h3> Website Redesign </h3>
+        <a href="#">
+        <img class="grid-image" src="https://images.pexels.com/photos/3153204/pexels-photo-3153204.jpeg" alt="picture">
+        </a>
+  </div>
+  
+</div>
+<br><br><br>
+</main>
+  
+<!--Skills Graph-->
+  <h2 class="text-center text-lightblue">My Skills</h2>
+   <div class="chart-container">
+    <div id="chart"></div>
+  </div>
+  
+<!-- Testimonial-->
+<div class="wrapper">
+  <h2 class="text-center text-lightblue"> What my clients say</h2> <br>
+  <div class="testimonial-wrapper">
+    <div class="testimonial-container" id="testimonial-container"></div>
+    <button id="prev">&lt;</button>
+    <button id="next">&gt;</button>
+  </div>
+</div>
+
+
+<!--Contact Form-->
+<div class="form-container">
+  <h2 class="text-center text-lightblue">Contact Us</h2>
+  <form id="contactForm" onsubmit="return validateForm()">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <div>
+        <input type="submit" value="Submit">
+      </div>
+  </form>  
+</div>  
+  
+ 
+ <!--Footer-->
+<hr>
+<footer>
+  <table style="width:100%">
+    <tr>
+      <td class="td-40">
+        <a href="https://www.linkedin.com/in/ianambay/">
+        <img src="https://cdn-icons-png.flaticon.com/128/2504/2504923.png" alt="linkedin logo"class="social-media__logo--25"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/2504/2504903.png" alt="facebook logo" class="social-media__logo--25"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="instagram logo" class="social-media__logo--25"></a>
+      </td>
+      <td class="td-60">
+        <p> &copy; 2023 Web Design by Ian Ambay </p>
+      </td>
+    </tr>
+  </table>
+</footer>
+
+  
+<script src="https://www.gstatic.com/firebasejs/9.1.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.1.1/firebase-database.js"></script>  
+</body>
+</html> 
+  
+
